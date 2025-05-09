@@ -1,10 +1,9 @@
 * {
-    font-family: 'Time New Romaan', 'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif    ;
 }
 
-
 .navbar {
-    height: 10vh;
+    height: 10vh; 
 }
 
 #banner {
@@ -12,7 +11,7 @@
 }
 
 #banner .ngee {
-   background: url(Cindy.jpg);
+    background: url('mar.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -23,16 +22,17 @@
 }
 
 .btn-primary {
-    background-color: rgb(28, 193, 42) !important;
-    border:rgb(28, 193, 42)
+    background-color: #1912e7 !important;
+    border: #1219e7;
     border-radius: 0;
-    padding: 12px 34px;
+    padding: 12px 34 px;
     font-size: 20px;
+
 }
 
 #banner h6 {
     text-transform: uppercase;
-    color:rgb(28, 193, 42)
+    color: #1220e7;
 }
 
 #banner h1, #services h2 {
@@ -41,10 +41,8 @@
 
 #about {
     padding: 100px;
-    background-color:rgb(28, 193, 42)
-    
+    background-color: #2012e7;
 }
-
 #services {
     padding: 100px;
     
@@ -52,8 +50,64 @@
 
 .card {
     border: none;
+
+}
+.card-img-top {
+    border: 2px solid #1224e7;
 }
 
-.card-image-top {
-    border: 2px solid #d23400;
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(3, 11, 116);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(84, 48, 92);
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: rgb(252, 17, 126) ;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0e8ec9;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
 }
